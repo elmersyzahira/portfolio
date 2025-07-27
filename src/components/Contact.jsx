@@ -24,49 +24,47 @@ export default function Contact() {
             <FaEnvelope className="text-purple-500 text-2xl" />
             <span className="text-gray-700 text-base">zahiraelmersy@gmail.com</span>
           </div>
-          {/* <div className="flex items-center justify-center gap-4">
-            <FaPhone className="text-purple-500 text-2xl" />
-            <span className="text-gray-700 text-base">+212 7 50 12 25 29</span>
-          </div> */}
+
           <div className="flex items-center justify-center gap-4">
             <FaMapMarkerAlt className="text-purple-500 text-2xl" />
             <span className="text-gray-700 text-base">Casablanca, Maroc</span>
           </div>
         </div>
 
-        {/* Réseaux sociaux */}
-        <div className="text-center">
-          <h3 className="text-lg font-semibold text-gray-700 mb-4">Retrouvez-moi sur :</h3>
-          <div className="flex justify-center gap-12 text-gray-700 text-lg">
-            <a
-              href="https://github.com/elmersyzahira"
-              target="_blank"
-              rel="noreferrer"
-              className="flex flex-col items-center text-purple-500 hover:text-purple-700"
-            >
-              <FaGithub className="text-3xl" />
-              <span>elmersyzahira</span>
-            </a>
-            <a
-              href="https://www.instagram.com/elm_zizo.0?igsh=eGJna3c2NXd0bHp5"
-              target="_blank"
-              rel="noreferrer"
-              className="flex flex-col items-center text-purple-500 hover:text-purple-700"
-            >
-              <FaInstagram className="text-3xl" />
-              <span>@elmersyzahira</span>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/zahira-elmersy-97b3ba338/"
-              target="_blank"
-              rel="noreferrer"
-              className="flex flex-col items-center text-purple-500 hover:text-purple-700"
-            >
-              <FaLinkedin className="text-3xl" />
-              <span>elmersy zahira</span>
-            </a>
-          </div>
-        </div>
+       {/* Réseaux sociaux */}
+<div className="text-center">
+  <h3 className="text-lg font-semibold text-gray-700 mb-4">Retrouvez-moi sur :</h3>
+  <div className="flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-12 text-gray-700 text-lg">
+    <a
+      href="https://github.com/elmersyzahira"
+      target="_blank"
+      rel="noreferrer"
+      className="flex flex-col items-center text-purple-500 hover:text-purple-700"
+    >
+      <FaGithub className="text-3xl" />
+      <span className="text-sm mt-1">elmersyzahira</span>
+    </a>
+    <a
+      href="https://www.instagram.com/elm_zizo.0?igsh=eGJna3c2NXd0bHp5"
+      target="_blank"
+      rel="noreferrer"
+      className="flex flex-col items-center text-purple-500 hover:text-purple-700"
+    >
+      <FaInstagram className="text-3xl" />
+      <span className="text-sm mt-1">@elmersyzahira</span>
+    </a>
+    <a
+      href="https://www.linkedin.com/in/zahira-elmersy-97b3ba338/"
+      target="_blank"
+      rel="noreferrer"
+      className="flex flex-col items-center text-purple-500 hover:text-purple-700"
+    >
+      <FaLinkedin className="text-3xl" />
+      <span className="text-sm mt-1">elmersy zahira</span>
+    </a>
+  </div>
+</div>
+
       </div>
     </section>
   );

@@ -129,9 +129,7 @@ export default function Projects() {
           >
             <FaGithub /> Voir GitHub
           </a>
-          {/* <button className="flex items-center justify-center gap-2 border border-purple-300 px-6 py-2 rounded-full hover:bg-purple-50 transition">
-            <FaHandshake /> Travaillons ensemble
-          </button> */}
+    
         </div>
       </div>
     </section>
