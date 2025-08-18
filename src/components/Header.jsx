@@ -11,6 +11,7 @@ export default function Header() {
         <a href="#home" className="hover:text-purple-500">Accueil</a>
         <a href="#about" className="hover:text-purple-500">À propos</a>
         <a href="#projects" className="hover:text-purple-500">Projets</a>
+        <a href="#design" className="hover:text-purple-500">Design Graphique</a>
         <a href="#skills" className="hover:text-purple-500">Compétences</a>
         <a href="#contact" className="hover:text-purple-500">Contact</a>
       </nav>
