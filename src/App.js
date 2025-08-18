@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import GraphicDesign from './components/GraphicDesign';
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <Hero />
       <About />
       <Projects />
+      <GraphicDesign />
       <Skills />
       <Contact />
       <Footer />
